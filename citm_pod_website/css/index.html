@@ -1,0 +1,62 @@
+<!doctype html>
+	<!DOCTYPE html>
+	<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Caught In Two Minds Podcast</title>
+		<link rel="stylesheet" type="text/css" href="style.css">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Mochiy+Pop+P+One&family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+		<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" rel="stylesheet">
+
+	</head>
+
+	<body>
+		<section class="header">
+			<nav>
+				<a href="index.html"><img src="/Applications/CITM_Website/images/smbadge.png"></a>
+			<div class="nav-links" id="navLinks">
+				<i class="fas fa-times" onclick="hideMenu()"></i>
+				<ul>
+					<li><a href="">HOME</a></li>
+					<li><a href="">PODCAST</a></li>
+					<li><a href="">VIDEOS</a></li>
+					<li><a href="">BLOG</a></li>
+					<li><a href="">ABOUT</a></li>
+					<li><a href="">CONTACT</a></li>
+				</ul>
+				
+			</div>
+				<i class="fas fa-bars" onclick="showMenu()"></i>
+			</nav>
+
+			<div class="text-box">
+				<h1>Caught In Two Minds Podcast</h1>
+				<p>Two Friends. Two Minds. One Love.<br>ARSENAL FOOTBALL CLUB</p>
+				<a href=" https://podcasts.apple.com/us/podcast/caught-in-two-minds/id1535573500" class="hero-btn">Listen To Podcast</a>
+				
+			</div>
+			
+		</section>
+
+				<!---------- JavaScript For Menu Toggle --------->
+
+		<script>
+			var navLinks = document.getElementById('navLinks')
+
+			function showMenu() {
+				navLinks.style.right = "0";
+			}
+
+			function hideMenu(){
+				navLinks.style.right = "-200px";
+			}
+		</script>
+
+
+
+
+	
+	</body>
+	</html>
