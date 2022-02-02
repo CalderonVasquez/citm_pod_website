@@ -11,7 +11,7 @@ body{
 .header{
 	min-height: 100vh;
 	width: 100%;
-	background-image: linear-gradient(rgba(4, 9, 30, 0.4),rgba(4,9,30,0.4)),url(/applications/CITM_Website/images/frontEmirates.jpeg);
+	background-image: linear-gradient(rgba(4, 9, 30, 0.4),rgba(4,9,30,0.4)),url(emirates.jpeg);
 	background-position: center;
 	background-size: cover;
 	position: relative;
@@ -42,8 +42,9 @@ nav img{
 
 .nav-links ul li a{
 	text-decoration: none;
-	font-size: 13px;
+	font-size: 15px;
 	color: white;
+	font-weight: 800;
 }
 
 .nav-links ul li::after{
@@ -148,7 +149,7 @@ nav .fas{
 .cta{
 	margin: 100px auto;
 	width: 80%;
-	background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)),url(/Applications/CITM_Website/images/Emirates.jpeg);
+	background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)),url(cta-AFC.jpeg);
 	background-position: center;
 	background-size: cover;
 	border-radius: 10px;
@@ -168,7 +169,7 @@ nav .fas{
 .email-opt-in{
 	margin: 100px auto;
 	width: 80%;
-	background-image: linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.2)),url(/Applications/CITM_Website/images/Dennis.jpeg);
+	background-image: linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.2)),url(dennis.jpeg);
 	background-size: cover;
 	color: #ffeeed;
 	font-weight: 600;
@@ -193,9 +194,9 @@ nav .fas{
 /*---------- About Us Page -----------*/
 
 .sub-header{
-	height: 50vh;
+	height: 55vh;
 	width: 100%;
-	background-image: linear-gradient(rgba(4,9,30,0.4),rgba(4, 9, 30, 0.4)),url(/Applications/CITM_Website/images/frontEmirates.jpeg);
+	background-image: url(cta-AFC.jpeg);
 	background-position: center;
 	background-size: cover;
 	text-align: center;
@@ -254,23 +255,6 @@ nav .fas{
 	padding: 60px 0;
 }
 
-.the-dump h1{
-	width: 90%;
-	position: absolute;
-	color: white;
-	top: 50%;
-	left: 50%;
-	transform: translate(-50%, -50%);
-	text-align: center;
-}
-
-
-.the-dump h5{
-	margin: 10px 0 40px;
-	font-size: 20px;
-	font-weight: 300;
-}
-
 .blog-left{
 	flex-basis: 65%;
 }
@@ -282,7 +266,13 @@ nav .fas{
 .blog-left h2{
 	color: white;
 	font-weight: 600;
-	margin: 30px 0;
+
+}
+
+.blog-left h5{
+	color: white;
+	font-weight: 600;
+	margin: 10px 0 40px;
 }
 
 .blog-left p{
@@ -408,9 +398,8 @@ nav .fas{
 /***************** THINGS TO FINISH ***************/	
 
 /* add youtube thumb transform on hover */
-/* add about page */
 /* add drop down for podcast nav link - (spotify-apple-google-youtube) */
-/* add blog page */
+
 
 
 /*-------- Footer -------*/
