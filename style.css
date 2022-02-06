@@ -81,6 +81,17 @@ nav img{
 	font-weight: 300;
 }
 
+.tb-icons .fab:hover{
+	background-color: transparent;
+	color: #db0007;
+	transition: 1s;
+}
+
+.tb-icons .fab{
+	margin: 10px;
+}
+
+
 .hero-btn{
 	display: inline-block;
 	text-decoration: none;
